@@ -1,4 +1,5 @@
 import React from "react";
+import { FaYoutube } from 'react-icons/fa';
 
 const MainContent = () => {
   return (
@@ -13,19 +14,19 @@ const MainContent = () => {
           >
             <div className="landing-intro-wrapper">
               <h2 className="new-hero-title">
-                <span>We’re</span>
+                <span>저희는</span>
                 <div className="hero-title-placeholder" />
                 <span>
-                  a{" "}
+                  은{" "}
                   <span className="text-rotator-wrapper secondary-font">
                     <span className="text-rotator">
-                      <span>creative</span>
-                      <span>visionary</span>
-                      <span>digital</span>
+                      <span>스타일리시한</span>
+                      <span>편안한</span>
+                      <span>신뢰받는</span>
                     </span>
                   </span>
                 </span>
-                <span>agency</span>
+                <span>패션 브랜드입니다</span>
               </h2>
             </div>
           </div>
@@ -44,18 +45,27 @@ const MainContent = () => {
             >
               <div className="landing-video content-timeline">
                 <div className="content-video-wrapper">
-                  <video loop muted playsInline className="bgvid">
+                  {/* <video loop muted playsInline className="bgvid">
                     <source src="/images/intro.mp4" type="video/mp4" />
-                  </video>
+                  </video> */}
+                  <iframe
+                    width="388"
+                    height="238"
+                    src="https://www.youtube.com/embed/b9wKipWxTt4"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
                 </div>
               </div>
               <hr />
               <hr />
               <hr />
               <p className="has-opacity">
-                Crafting exceptional websites tailored to your vision, we blend
-                creativity with functionality to deliver stunning digital
-                experiences.
+                저희 반엣은 엄마들을 위한 스타일리시하고 편안한 패션 아이템을
+                제공합니다. 매주 새로운 신제품과 특별한 할인 혜택을 만나보세요.
+                당신의 일상을 더욱 빛나게 할 최고의 선택입니다.
               </p>
               <div className="button-wrap right button-link has-animation">
                 <div className="icon-wrap parallax-wrap">
@@ -69,7 +79,7 @@ const MainContent = () => {
                   href="about.html"
                 >
                   <div className="button-text sticky right">
-                    <span data-hover="Read More">Read More</span>
+                    <span data-hover="Read More">자세히 보기</span>
                   </div>
                 </a>
               </div>
@@ -88,13 +98,13 @@ const MainContent = () => {
                     <div className="img-mask">
                       <div className="section-image trigger-item-link">
                         <img
-                          src="images/01hero.jpg"
+                          src="/banat_background_6.png"
                           className="item-image grid__item-img"
                           alt=""
                         />
                       </div>
                       <img
-                        src="images/01hero.jpg"
+                        src="/banat_background_2.png"
                         className="grid__item-img grid__item-img--large"
                         alt=""
                       />
@@ -104,13 +114,13 @@ const MainContent = () => {
                     <div className="img-mask">
                       <div className="section-image trigger-item-link">
                         <img
-                          src="images/02hero.jpg"
+                          src="/banat_background_2.png"
                           className="item-image grid__item-img"
                           alt=""
                         />
                       </div>
                       <img
-                        src="images/02hero.jpg"
+                        src="/banat_background_4.png"
                         className="grid__item-img grid__item-img--large"
                         alt=""
                       />
@@ -120,13 +130,13 @@ const MainContent = () => {
                     <div className="img-mask">
                       <div className="section-image trigger-item-link">
                         <img
-                          src="images/03hero.jpg"
+                          src="/banat_background_4.png"
                           className="item-image grid__item-img"
                           alt=""
                         />
                       </div>
                       <img
-                        src="images/03hero.jpg"
+                        src="/banat_background_4.png"
                         className="grid__item-img grid__item-img--large"
                         alt=""
                       />
@@ -136,18 +146,13 @@ const MainContent = () => {
                     <div className="img-mask">
                       <div className="section-image trigger-item-link">
                         <img
-                          src="images/04hero.jpg"
+                          src="/banat_background_5.png"
                           className="item-image grid__item-img"
                           alt=""
                         />
-                        <div className="hero-video-wrapper">
-                          <video loop muted playsInline className="bgvid">
-                            <source src="/images/04hero.mp4" type="video/mp4" />
-                          </video>
-                        </div>
                       </div>
                       <img
-                        src="images/04hero.jpg"
+                        src="/banat_background_5.png"
                         className="grid__item-img grid__item-img--large"
                         alt=""
                       />
@@ -160,8 +165,9 @@ const MainContent = () => {
                   <div className="thumb-slide" data-centerline="OPEN">
                     <div className="thumb-slide-img">
                       <img
-                        src="images/01hero1.jpg"
+                        src="/banat_background_6.png"
                         className="item-image grid__item-img"
+                        style={{ height: 500 }}
                         alt=""
                       />
                     </div>
@@ -174,7 +180,7 @@ const MainContent = () => {
                   <div className="thumb-slide" data-centerline="OPEN">
                     <div className="thumb-slide-img">
                       <img
-                        src="images/02hero1.jpg"
+                        src="/banat_background_2.png"
                         className="item-image grid__item-img"
                         alt=""
                       />
@@ -188,7 +194,7 @@ const MainContent = () => {
                   <div className="thumb-slide" data-centerline="OPEN">
                     <div className="thumb-slide-img">
                       <img
-                        src="images/03hero1.jpg"
+                        src="/banat_background_4.png"
                         className="item-image grid__item-img"
                         alt=""
                       />
@@ -202,7 +208,7 @@ const MainContent = () => {
                   <div className="thumb-slide" data-centerline="OPEN">
                     <div className="thumb-slide-img">
                       <img
-                        src="images/04hero.jpg"
+                        src="/banat_background_5.png"
                         className="item-image grid__item-img"
                         alt=""
                       />
@@ -210,7 +216,7 @@ const MainContent = () => {
                     <a
                       className="slide-link"
                       data-type="page-transition"
-                      href="project04.html"
+                      href="project03.html"
                     />
                   </div>
                 </div>
@@ -219,30 +225,30 @@ const MainContent = () => {
                 <div className="snap-slider-captions-wrapper content-full-width">
                   <div className="snap-slide-caption">
                     <div className="slide-title">
-                      <span>Son of a Tailor</span>
+                      <span>맞춤 제작 </span>
                     </div>
                     <div className="slide-current">
-                      <span>01</span>
+                      <span style={{ color: "black", fontSize: 40 }}>01</span>
                     </div>
                     <div className="slide-counter">
-                      <span>04</span>
+                      <span style={{ color: "black", fontSize: 40 }}>04</span>
                     </div>
                     <div className="slide-subtitle">
-                      <span>Brand Identity</span>
+                      <span>맞춤 제작 </span>
                     </div>
                   </div>
                   <div className="snap-slide-caption">
                     <div className="slide-title">
-                      <span>Stena Air</span>
+                      <span>마스크팩 </span>
                     </div>
                     <div className="slide-current">
-                      <span>02</span>
+                      <span style={{ color: "black", fontSize: 40 }}>02</span>
                     </div>
                     <div className="slide-counter">
-                      <span>04</span>
+                      <span style={{ color: "black", fontSize: 40 }}>04</span>
                     </div>
                     <div className="slide-subtitle">
-                      <span>Graphic Design</span>
+                      <span>마스크팩 </span>
                     </div>
                   </div>
                   <div
@@ -250,30 +256,30 @@ const MainContent = () => {
                     data-centerline="OPEN"
                   >
                     <div className="slide-title">
-                      <span>Lounge Chair</span>
+                      <span>신발</span>
                     </div>
                     <div className="slide-current">
-                      <span>03</span>
+                      <span style={{ color: "black", fontSize: 40 }}>03</span>
                     </div>
                     <div className="slide-counter">
-                      <span>04</span>
+                      <span style={{ color: "black", fontSize: 40 }}>04</span>
                     </div>
                     <div className="slide-subtitle">
-                      <span>Photography</span>
+                      <span>신발</span>
                     </div>
                   </div>
                   <div className="snap-slide-caption">
                     <div className="slide-title">
-                      <span>Invincibles</span>
+                      <span>액세서리</span>
                     </div>
                     <div className="slide-current">
-                      <span>04</span>
+                      <span style={{ color: "black", fontSize: 40 }}>04</span>
                     </div>
                     <div className="slide-counter">
-                      <span>04</span>
+                      <span style={{ color: "black", fontSize: 40 }}>04</span>
                     </div>
                     <div className="slide-subtitle">
-                      <span>Video</span>
+                      <span>액세서리</span>
                     </div>
                   </div>
                 </div>
@@ -290,7 +296,7 @@ const MainContent = () => {
             <hr />
             <hr />
             <p className="has-shuffle no-margins">
-              Continue exploring our work collection
+              저희 의류 컬렉션을 계속 둘러보세요
             </p>
             <br />
             <div className="button-box">
@@ -300,9 +306,9 @@ const MainContent = () => {
                     <a
                       className="ajax-link"
                       data-type="page-transition"
-                      href="index-portfolio.html"
+                      href="https://bibpo.com/"
                     >
-                      <span data-hover="All Projects">All Projects</span>
+                      <span data-hover="모든 의류">모든 의류</span>
                     </a>
                   </div>
                 </div>
@@ -316,13 +322,13 @@ const MainContent = () => {
             data-bgcolor="#c8c8c8"
           >
             <div className="pinned-lists-wrapper font-mode" data-duration="3x">
-              <p>You need it? We do it</p>
+              <p>필요하세요? 저희가 해드립니다.</p>
               <ul className="pinned-lists">
-                <li>branding</li>
-                <li data-infotextafter="Inspire">web design</li>
-                <li>motion</li>
-                <li data-infotextafter="Create">development</li>
-                <li>marketing</li>
+                <li>패션 디자인</li>
+                <li data-infotextafter="스타일을 완성하다">스타일링</li>
+                <li>신제품 출시</li>
+                <a style={{cursor:"pointer"}} href="https://bibpo.com/product/list.html?cate_no=99"><li data-infotextafter="브랜드 방송">방송 판매</li></a>
+                <a style={{cursor:"pointer"}} href="https://www.youtube.com/@banpodress"><li data-infotextafter="YouTube 채널"> <FaYoutube/>유튜브 채널</li></a> 
               </ul>
             </div>
           </div>
@@ -338,7 +344,9 @@ const MainContent = () => {
                   <i className="fa fa-map-marker fa-2x" aria-hidden="true" />
                 </div>
                 <div className="box-icon-content">
-                  <h6 className="no-margins">서울 성동구 옥수동 365-6 덕성빌딩 비 104호 (옥수동)</h6>
+                  <h6 className="no-margins">
+                    서울 성동구 옥수동 365-6 덕성빌딩 비 104호 (옥수동)
+                  </h6>
                   <p>주소</p>
                 </div>
               </div>
@@ -373,14 +381,24 @@ const MainContent = () => {
               data-hover-message="Copy Mail"
               data-clicked-message="Copied"
             >
-              <a href="/contact"><span>alicecamping@naver.com</span></a>
-              
-              
+              <a href="/contact">
+                <span>alicecamping@naver.com</span>
+              </a>
             </div>
-            <a href="/contact"><i style={{fontSize:80, color:"black" , marginTop:10, marginBottom:-50, cursor:"pointer" }} class="fa-solid fa-arrow-right"/></a>
-             
+            <a href="/contact">
+              <i
+                style={{
+                  fontSize: 80,
+                  color: "black",
+                  marginTop: 10,
+                  marginBottom: -50,
+                  cursor: "pointer",
+                }}
+                className="fa-solid fa-arrow-right"
+              />
+            </a>
           </div>
-         
+
           {/*/Row */}
         </div>
       </div>

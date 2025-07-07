@@ -176,8 +176,8 @@ const ContactMain = () => {
                         />
                       </div>
                       <div className="box-icon-content">
-                        <h6 className="no-margins">35 M Str, New York, USA</h6>
-                        <p>Address</p>
+                        <h6 className="no-margins">서울 성동구 옥수동 365-6 덕성빌딩 비 104호 (옥수동)</h6>
+                        <p>주소</p>
                       </div>
                     </div>
                   </div>
@@ -211,8 +211,8 @@ const ContactMain = () => {
                         <i className="fa fa-phone fa-2x" aria-hidden="true" />
                       </div>
                       <div className="box-icon-content">
-                        <h6 className="no-margins">0040 (7763) 574-8901</h6>
-                        <p>Phone</p>
+                        <h6 className="no-margins">010-7523-1950</h6>
+                        <p>고객센터 문의</p>
                       </div>
                     </div>
                   </div>
@@ -234,31 +234,17 @@ const ContactMain = () => {
                   <p className="bigger has-shuffle no-margins secondary-font animated">
                     <span
                       className="shuffle-word"
-                      data-text="Ready"
-                      style={{ opacity: 1 }}
-                    >
-                      Ready
-                    </span>{" "}
-                    <span
-                      className="shuffle-word"
-                      data-text="to"
-                      style={{ opacity: 1 }}
-                    >
-                      to
-                    </span>{" "}
-                    <span
-                      className="shuffle-word"
                       data-text="work"
                       style={{ opacity: 1 }}
                     >
-                      work
+                      언제든지
                     </span>{" "}
                     <span
                       className="shuffle-word"
                       data-text="together?"
                       style={{ opacity: 1 }}
                     >
-                      together?
+                      문의해 주세요
                     </span>
                   </p>
                   <div
@@ -272,7 +258,7 @@ const ContactMain = () => {
                       transform: "translate(0px, 0px)",
                     }}
                   >
-                    <span>office@bennet.com</span>
+                    <span>alicecamping@naver.com</span>
                   </div>
                 </div>
               </div>

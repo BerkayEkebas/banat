@@ -49,7 +49,7 @@ const Navbar = () => {
                 <a
                   className="ajax-link active"
                   data-type="page-transition"
-                  href="index.html"
+                  href="/"
                 >
                   <div
                     className="before-span"
@@ -61,7 +61,7 @@ const Navbar = () => {
                       transform: "translate(0px, 100%)",
                     }}
                   >
-                    <span data-hover="회원가입">회원가입</span>
+                    <span data-hover="홈페이지">홈페이지</span>
                   </div>
                 </a>
               </li>
@@ -174,7 +174,7 @@ const Navbar = () => {
                       transform: "translate(0px, 100%)",
                     }}
                   >
-                    <span data-hover="서비스 정보">서비스 정보</span>
+                    <span data-hover="회원가입">회원가입</span>
                   </div>
                 </a>
               </li>
@@ -182,7 +182,7 @@ const Navbar = () => {
                 <a
                   className="ajax-link"
                   data-type="page-transition"
-                  href="resources.html"
+                  href="/contact"
                 >
                   <div
                     className="before-span"
@@ -220,7 +220,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="button-text sticky right">
-              <a href="/contact"><span data-hover="고객센터">고객센터</span></a>
+              <span data-hover="고객센터">고객센터</span>
             </div>
           </div>
         </a>

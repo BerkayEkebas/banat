@@ -13,8 +13,8 @@ const Hero = () => {
         <div className="inner">
           <h1
             className="hero-title caption-timeline"
-            data-infotextbefore="Welcome"
-            data-infotextafter="Est. 2025"
+            data-infotextbefore="어서 오세요"
+            data-infotextafter="©2024 반엣 쇼핑몰"
           >
             <div>
               <span>반엣</span>
@@ -22,10 +22,10 @@ const Hero = () => {
           </h1>
           <div className="hero-subtitle caption-timeline onload-shuffle">
             <div>
-              <span>Bringing brands to life through</span>
+              <span>반엣은 엄마들을 위한 스타일리시하고 편안한 패션 아이템을 제공하는 한국의 </span>
             </div>
             <div className="secondary-font">
-              <span>creative web solutions</span>
+              <span>대표적인 이커머스 플랫폼입니다</span>
             </div>
           </div>
         </div>
@@ -39,20 +39,20 @@ const Hero = () => {
               </div>
             </div>
             <div className="button-text sticky left">
-              <span data-hover="Scroll to Explore">Scroll to Explore</span>
+              <span data-hover="Scroll to Explore">스크롤해서 탐색하기</span>
             </div>
           </div>
         </div>
         <div className="hero-footer-right">
           <div id="info-text">
-            <span>Featured Projects</span>
+            <span>신제품</span>
           </div>
         </div>
       </div>
     </div>
     <div id="hero-interaction">
       <div className="hero-column col-left">
-        <div className="col-img-wrapper small-img">
+        <div className="col-img-wrapper large-img">
           <img src="/banat_main_1.jpg" alt="" />
         </div>
         <div className="col-img-wrapper large-img">
@@ -63,7 +63,7 @@ const Hero = () => {
         <div className="col-img-wrapper large-img">
           <img src="/banat_main_3.jpg" alt="" />
         </div>
-        <div className="col-img-wrapper small-img">
+        <div className="col-img-wrapper large-img">
           <img src="/banat_main_4.jpg" alt="" />
         </div>
       </div>

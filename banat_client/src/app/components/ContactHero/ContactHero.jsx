@@ -12,8 +12,8 @@ const ContactHero = () => {
           <div className="inner">
             <h1
               className="hero-title caption-timeline"
-              data-infotextbefore="Reach Out"
-              data-infotextafter="Say Hello"
+              data-infotextbefore="문의하기 "
+              data-infotextafter="인사해요 "
               style={{
                 translate: "none",
                 rotate: "none",
@@ -89,7 +89,7 @@ const ContactHero = () => {
                 </div>
               </div>
               <div className="button-text sticky left">
-                <span data-hover="Scroll to Explore">Scroll to Explore</span>
+                <span data-hover="Scroll to Explore">스크롤해서 탐색하기</span>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ const ContactHero = () => {
             }}
           >
             <div id="info-text">
-              <span>office@bennet.com</span>
+              <span>alicecamping@naver.com</span>
             </div>
           </div>
         </div>

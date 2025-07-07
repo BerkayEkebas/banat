@@ -14,10 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Bennet Website - A Creative Portfolio Template",
-  description: "Download the best Creative Portfolio HTML Template in 2025",
+  title: "반엣",
+  description:
+    "스타일리시하고 편안한 엄마들을 위한 패션 브랜드 반엣 - 최신 트렌드와 특별한 맞춤 의류를 만나보세요.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/banatsmall.png",
   },
 };
 
@@ -58,7 +59,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <main>
           {/* Preload  */}
-            {/* <Preloader/> */}
+          {/* <Preloader/> */}
           <div className="cd-index cd-main-content">
             <div
               id="clapat-page-content"
