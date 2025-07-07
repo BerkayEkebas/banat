@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Script from "next/script";
+import Preloader from "./components/Preload/Preloader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,44 +58,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <main>
           {/* Preload  */}
-          <div className="preloader-wrap" data-centerline="Loading">
-            <div className="percentage-wrapper">
-              <div className="percentage" id="precent">
-                <span className="number number_2">
-                  <span>0</span>
-                  <span>1</span>
-                  <span>2</span>
-                  <span>3</span>
-                  <span>4</span>
-                  <span>5</span>
-                  <span>6</span>
-                  <span>7</span>
-                  <span>8</span>
-                  <span>9</span>
-                  <span>0</span>
-                </span>
-                <span className="number number_3">
-                  <span>0</span>
-                  <span>1</span>
-                  <span>2</span>
-                  <span>3</span>
-                  <span>4</span>
-                  <span>5</span>
-                  <span>6</span>
-                  <span>7</span>
-                  <span>8</span>
-                  <span>9</span>
-                  <span>0</span>
-                </span>
-              </div>
-              <div className="percentage-first">
-                <span>기다려주세요</span>
-              </div>
-              <div className="percentage-last">
-                <span>반엣에 어서오세요 </span>
-              </div>
-            </div>
-          </div>
+            {/* <Preloader/> */}
           <div className="cd-index cd-main-content">
             <div
               id="clapat-page-content"
@@ -111,7 +75,7 @@ export default function RootLayout({ children }) {
         </main>
 
         {/* Overlay ve cursor div'leri */}
-        <div className="cd-cover-layer"></div>
+        {/* <div className="cd-cover-layer"></div>
         <div id="magic-cursor">
           <div id="ball">
             <div id="ball-drag-x"></div>
@@ -122,7 +86,7 @@ export default function RootLayout({ children }) {
         <div id="clone-image">
           <div className="hero-translate"></div>
         </div>
-        <div id="rotate-device"></div>
+        <div id="rotate-device"></div> */}
 
         {/* Scriptler */}
         <Script src="/js/jquery.min.js" strategy="beforeInteractive" />

@@ -513,7 +513,7 @@ Function Page Load
 			
 			var perfData = performance.getEntriesByType('navigation')[0] || performance.timing;
 			var EstimatedTime = -(perfData.loadEventEnd - perfData.startTime);
-			var time = Math.min(Math.max(((EstimatedTime / 100) % 50) * 1000, 5000), 20000);
+			var time = 10 //Math.min(Math.max(((EstimatedTime / 100) % 50) * 1000, 5000), 20000);
 			var timeSeconds = time/1000 - 1.5
 			window.preloaderTimeout = time; 
 			
@@ -552,7 +552,7 @@ Function Page Load
 			// Fading Out Loadbar on Finised
 			setTimeout(function(){				
 				initOnFirstLoad();						  
-			}, time);
+			}, 100);  // time var ama bunu 100 yaptım
 		
 		} else {			
 			initOnFirstLoad();

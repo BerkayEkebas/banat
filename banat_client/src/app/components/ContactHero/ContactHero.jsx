@@ -19,8 +19,8 @@ const ContactHero = () => {
                 rotate: "none",
                 scale: "none",
                 filter: "blur(0px)",
-                opacity: "0.2",
-                transform: "translate(0%, 60%)",
+                opacity: "1",
+                transform: "translate(0%, 20%)",
               }}
             >
               <div>
@@ -33,7 +33,7 @@ const ContactHero = () => {
                     transform: "translate(0px, 0px)",
                   }}
                 >
-                  contacts
+                  연락처
                 </span>
               </div>
             </h1>

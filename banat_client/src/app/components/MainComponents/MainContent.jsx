@@ -338,8 +338,8 @@ const MainContent = () => {
                   <i className="fa fa-map-marker fa-2x" aria-hidden="true" />
                 </div>
                 <div className="box-icon-content">
-                  <h6 className="no-margins">35 M Str, New York, USA</h6>
-                  <p>Address</p>
+                  <h6 className="no-margins">서울 성동구 옥수동 365-6 덕성빌딩 비 104호 (옥수동)</h6>
+                  <p>주소</p>
                 </div>
               </div>
             </div>
@@ -353,8 +353,8 @@ const MainContent = () => {
                   <i className="fa fa-phone fa-2x" aria-hidden="true" />
                 </div>
                 <div className="box-icon-content">
-                  <h6 className="no-margins">0040 (7763) 574-8901</h6>
-                  <p>Phone</p>
+                  <h6 className="no-margins">010-7523-1950</h6>
+                  <p>고객센터 문의</p>
                 </div>
               </div>
             </div>
@@ -366,16 +366,21 @@ const MainContent = () => {
             data-bgcolor="#c8c8c8"
           >
             <p className="bigger has-shuffle no-margins secondary-font">
-              Ready to work together?
+              문의하기
             </p>
             <div
               id="copy-email"
               data-hover-message="Copy Mail"
               data-clicked-message="Copied"
             >
-              <span>office@bennet.com</span>
+              <a href="/contact"><span>alicecamping@naver.com</span></a>
+              
+              
             </div>
+            <a href="/contact"><i style={{fontSize:80, color:"black" , marginTop:10, marginBottom:-50, cursor:"pointer" }} class="fa-solid fa-arrow-right"/></a>
+             
           </div>
+         
           {/*/Row */}
         </div>
       </div>

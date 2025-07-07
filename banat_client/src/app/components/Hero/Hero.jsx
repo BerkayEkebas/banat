@@ -17,7 +17,7 @@ const Hero = () => {
             data-infotextafter="Est. 2025"
           >
             <div>
-              <span>bennet</span>
+              <span>반엣</span>
             </div>
           </h1>
           <div className="hero-subtitle caption-timeline onload-shuffle">
@@ -53,18 +53,18 @@ const Hero = () => {
     <div id="hero-interaction">
       <div className="hero-column col-left">
         <div className="col-img-wrapper small-img">
-          <img src="images/01hero1.jpg" alt="" />
+          <img src="/banat_main_1.jpg" alt="" />
         </div>
         <div className="col-img-wrapper large-img">
-          <img src="images/01hero.jpg" alt="" />
+          <img src="/banat_main_2.jpg" alt="" />
         </div>
       </div>
       <div className="hero-column col-right">
         <div className="col-img-wrapper large-img">
-          <img src="images/02hero.jpg" alt="" />
+          <img src="/banat_main_3.jpg" alt="" />
         </div>
         <div className="col-img-wrapper small-img">
-          <img src="images/02hero1.jpg" alt="" />
+          <img src="/banat_main_4.jpg" alt="" />
         </div>
       </div>
     </div>

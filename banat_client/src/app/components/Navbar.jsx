@@ -28,7 +28,7 @@ const Navbar = () => {
           <a
             className="ajax-link"
             data-type="page-transition"
-            href="index.html"
+            href="/"
           >
             <img className="black-logo" src="/banatpng.png" alt="ClaPat Logo" />
             <img className="white-logo" src="/banatpng.png" alt="ClaPat Logo" />
@@ -206,7 +206,7 @@ const Navbar = () => {
         <a
           className="header-button ajax-link"
           data-type="page-transition"
-          href="contact.html"
+          href="/contact"
         >
           <div className="button-icon-link right">
             <div className="icon-wrap-scale">
@@ -220,7 +220,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="button-text sticky right">
-              <span data-hover="고객센터">고객센터</span>
+              <a href="/contact"><span data-hover="고객센터">고객센터</span></a>
             </div>
           </div>
         </a>
