@@ -150,10 +150,6 @@ export default function RootLayout({ children }) {
           src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.4.0/smooth-scrollbar.js"
           strategy="beforeInteractive"
         />
-        <Script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpK1sWi3J3EbUOkF_K4-UHzi285HyFX5M&sensor=false"
-          strategy="beforeInteractive"
-        />
 
         <Script src="/js/clapat.js" strategy="lazyOnload" />
         <Script src="/js/plugins.js" strategy="lazyOnload" />
